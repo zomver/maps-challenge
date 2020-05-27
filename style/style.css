@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+	height: 100vh;
+}
+
+.title {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	font-size: 50px;
+	z-index: 10;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #333;
+}
+
+.search-container {
+	width: 325px;
+	height: 50px;
+	background-color: #333333;
+	position: absolute;
+	z-index: 30;
+	top: 170px;
+	left: 55px;
+	border-radius: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.search {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.search input {
+	width: 100%;
+	font-size: 18px;
+	border: none;
+	background-color: transparent;
+	color: #E6E6E6;
+}
+
+.search input:focus {
+	outline: none;
+}
+
+.search i {
+	color: #808080;
+
+}
+
+.stores-list-container {
+	width: 350px;
+	height: 350px;
+	background-color: white;
+	position: absolute;
+	z-index: 50;
+	top: 240px;
+	left: 55px;
+	border-radius: 30px;
+}
+
+.store-address {
+	margin-top: 20px;
+	margin-left: 15px;
+	font-weight: bold;
+}
+
+.store-phone-number {
+	margin-left: 15px;
+	font-weight: bold;
+}
+.telefono {
+	width: 4.5%
+}
+
+.separacion {
+	width: 85%;
+	height: 5px;
+	border-radius: 5px;
+	background-color: #E6E6E6;
+}
