@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Taqueria TRES HERMANOS - Localizador</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    <link rel="icon" type="image/png" href="taquerialogo.png">
+</head>
+
+<body>
+    <img class="taqueria" src="taquerialogo.png">
+    <div class="search-container">
+        <div class="search">
+            <input type="text" id="inputBusqueda" onkeyup="myFunction()" placeholder="Buscar por nombre..">
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+    <div class="stores-list-container">
+        <div class="stores-list">
+            <ul class="store-container" id="search-container">
+                <br>
+                <li class="store-address">
+                    <a>Av. Paseo de la Reforma #382, Juárez <br>
+                        CDMX, Cuauhtémoc 06600</a> <br>
+                    <img class="telefono" src="cel.png"> 55 5511 9424
+                    <div class="semi-circulo">
+                        <p>1</p><button class="enlace" role="link" onclick="window.location='https://www.google.com/maps/dir/Castillo+de+Chapultepec/Av.+Paseo+de+la+Reforma+382,+Ju%C3%A1rez,+Cuauht%C3%A9moc,+06600+Ciudad+de+M%C3%A9xico,+CDMX/@19.4230644,-99.1800399,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x85d1fecd47ed8f23:0xa6e0008524818b32!2m2!1d-99.181935!2d19.4204397!1m5!1m1!1s0x85d1ff498bc746b9:0xa8ecee6a5fb9fde1!2m2!1d-99.16939!2d19.4254584!3e0'">Llevame allí</button>
+                    </div>
+                    <hr class="separacion">
+                </li>
+                <br>
+                
+                <li class="store-address">
+                    <a>Av. Revolución #241, Tacubaya <br>
+                        CDMX, Miguel Hidalgo 11870</a> <br>
+                    <img class="telefono" src="cel.png"> 312 117 1477
+                    <div class="semi-circulo">
+                        <p>2</p><button class="enlace" role="link" onclick="window.location='https://www.google.com/maps/dir/Castillo+de+Chapultepec,+Bosque+de+Chapultepec+I+Secci%C3%B3n,+Ciudad+de+M%C3%A9xico,+CDMX/Taquer%C3%ADa+El+Borrego+Viudo,+Av.+Revoluci%C3%B3n+241,+Tacubaya,+Miguel+Hidalgo,+11870+Ciudad+de+M%C3%A9xico,+CDMX/@19.4115646,-99.1925705,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x85d1fecd47ed8f23:0xa6e0008524818b32!2m2!1d-99.181935!2d19.4204397!1m5!1m1!1s0x85d1ff6390f27487:0x3be7a56e41f9854a!2m2!1d-99.1852036!2d19.3994293!3e0'">Llevame allí</button>
+                    </div>
+                    <hr class="separacion">
+                </li>
+                <br>
+                <li class="store-address">
+                    <a>Viad. Río de la Piedad #318, Asturias <br>
+                        CDMX, Cuauhtémoc 06850</a> <br>
+                    <img class="telefono" src="cel.png"> 55 5925 9597
+                    <div class="semi-circulo">
+                        <p>3</p><button class="enlace" role="link" onclick="window.location='https://www.google.com/maps/dir/Castillo+de+Chapultepec,+Bosque+de+Chapultepec+I+Secci%C3%B3n,+Ciudad+de+M%C3%A9xico,+CDMX/Viad.+R%C3%ADo+de+la+Piedad+318,+Asturias,+Cuauht%C3%A9moc,+06850+Ciudad+de+M%C3%A9xico,+CDMX/@19.4120239,-99.1903494,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x85d1fecd47ed8f23:0xa6e0008524818b32!2m2!1d-99.181935!2d19.4204397!1m5!1m1!1s0x85d1feeed7863283:0x8c89da6e69f8f057!2m2!1d-99.1316472!2d19.4033107!3e0'">Llevame allí</button>
+                    </div>
+                    <hr class="separacion">
+                </li>
+                <br>
+                <li class="store-address">
+                    <a>Calle Sur #103, Héroes de Churubusco <br>
+                        CDMX, Iztapalapa 09090</a> <br>
+                    <img class="telefono" src="cel.png"> 55 2458 4023
+                    <div class="semi-circulo">
+                        <p>4</p><button class="enlace" role="link" onclick="window.location='https://www.google.com/maps/dir/Castillo+de+Chapultepec,+Bosque+de+Chapultepec+I+Secci%C3%B3n,+Ciudad+de+M%C3%A9xico,+CDMX/Taquer%C3%ADa+los+G%C3%BCeros,+Calle+Sur+103+401,+H%C3%A9roes+de+Churubusco,+Iztapalapa,+09090+Ciudad+de+M%C3%A9xico,+CDMX/@19.3901398,-99.1828926,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x85d1fecd47ed8f23:0xa6e0008524818b32!2m2!1d-99.181935!2d19.4204397!1m5!1m1!1s0x85d1fe14e91a5b7f:0xe2472f776fdcf041!2m2!1d-99.1197896!2d19.3617464!3e0'">Llevame allí</button>
+                    </div>
+                    <hr class="separacion">
+                </li>
+                <br>
+                <li class="store-address">
+                    <a>Av. Torres Adalid #636, Narvarte Poniente <br>
+                        CDMX, Benito Juárez 03020</a> <br>
+                    <img class="telefono" src="cel.png"> 55 5687 2109
+                    <div class="semi-circulo">
+                        <p>5</p><button class="enlace" role="link" onclick="window.location='https://www.google.com/maps/dir//EL+NARANJITO,+Av,+Torres+Adalid+636,+Narvarte+Poniente,+Benito+Ju%C3%A1rez,+03020+CDMX/@19.3898751,-99.1613614,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x85d1ff08d9547df3:0x225d912514e0d676!2m2!1d-99.1591727!2d19.3898751!3e0'">Llevame allí</button>
+                    </div>
+                    <hr class="separacion">
+                </li>
+                <br>
+                <li class="store-address">
+                    <a>Av. Revolución #1366, Guadalupe Inn <br>
+                        CDMX, Álvaro Obregón 01020</a> <br>
+                    <img class="telefono" src="cel.png"> 55 5660 3670
+                    <div class="semi-circulo">
+                        <p>6</p><button class="enlace" role="link" onclick="window.location='https://www.google.com/maps/dir//Taco+Inn,+Av.+Revoluci%C3%B3n+1366,+Guadalupe+Inn,+%C3%81lvaro+Obreg%C3%B3n,+01020+Ciudad+de+M%C3%A9xico,+CDMX/@19.3574961,-99.189858,19z/data=!4m9!4m8!1m0!1m5!1m1!1s0x85d1fff5795454d9:0xe33e2983bb83453e!2m2!1d-99.1895462!2d19.3573965!3e0'">Llevame allí</button>
+                    </div>
+                    <hr class="separacion">
+                </li>
+                <br>
+                <li class="store-address">
+                    <a>Franz Schubert #165, Cuauhtémoc <br>
+                        CDMX, Cuauhtémoc 06220</a> <br>
+                    <img class="telefono" src="cel.png"> 55 5597 6392
+                    <div class="semi-circulo">
+                        <p>7</p><button class="enlace" role="link" onclick="window.location='https://www.google.com/maps/dir//Los+Compadres,+Franz+Schubert+165,+Peralvillo,+Cuauht%C3%A9moc,+06220+Ciudad+de+M%C3%A9xico,+CDMX/@19.4623627,-99.1391889,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x85d1f91983d53d47:0x811f97c571f00c5!2m2!1d-99.1370735!2d19.4623337!3e0'">Llevame allí</button>
+                    </div>
+                    <hr class="separacion">
+                </li>
+                <br>
+                <li class="store-address">
+                    <a>Floricultura #183, 20 de Noviembre <br>
+                        CDMX, Venustiano Carranza 15300</a> <br>
+                    <img class="telefono" src="cel.png"> 55 1379 6942
+                    <div class="semi-circulo">
+                        <p>8</p><button class="enlace" role="link" onclick="window.location='https://www.google.com/maps/dir//Taqueria+El+Buen+Pastor,+Floricultura+183,+20+de+Noviembre,+Venustiano+Carranza,+15300+Ciudad+de+M%C3%A9xico,+CDMX/@19.4455425,-99.1094463,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x85d1f9ccf3a12249:0x79b82b0f81c5d93f!2m2!1d-99.107258!2d19.445543!3e0'">Llevame allí</button>
+                    </div>
+                </li>
+                <br>
+            </ul>
+        </div>
+    </div>
+    <div id="map"></div>
+    <script src="js/index.js"></script>
+    <script src="js/store-data.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh15L6ZQVrZVsMjwAhb_3-X6bbgpSGtQk&callback=initMap" async defer></script>
+    <script>
+        function myFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("inputBusqueda");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("search-container");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
